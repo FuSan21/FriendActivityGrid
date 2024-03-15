@@ -4,8 +4,8 @@
 * @authorId 867995866219286618
 * @description A theme for Discord that makes the friend activity grid visible on width of 1200px and below. It shows the friend activity below friend list in a gridbox
 * @source https://github.com/FuSan21/FriendActivityGrid
-* @updateUrl https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/friend-activity-grid.theme.css
+* @updateUrl https://fusan21.github.io/FriendActivityGrid/src/main.css
 * @version 1.0
 */
 
-@import "https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/src/main.css";
+@import "https://fusan21.github.io/FriendActivityGrid/src/main.css";
