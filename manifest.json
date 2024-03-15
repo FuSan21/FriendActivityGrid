@@ -16,5 +16,7 @@
   "type": "replugged-theme",
   "main": "src/main.css",
   "source": "https://github.com/FuSan21/FriendActivityGrid",
-  "image": ["https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/images/demo.jpg"]
+  "image": [
+    "https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/images/demo.jpg"
+  ]
 }
