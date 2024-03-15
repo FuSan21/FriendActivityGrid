@@ -1,20 +1,20 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "fusan21.friendactivitygrid",
+  "name": "Friend Activity Grid",
+  "description": "A theme for Discord that makes the friend activity grid visible on width of 1200px and below. It shows the friend activity below friend list in a gridbox",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "FuSan",
+    "discordID": "867995866219286618",
+    "github": "FuSan21"
   },
   "version": "1.0.0",
   "updater": {
-    "type": "github",
-    "id": "replugged-org/theme-template"
+    "type": "store",
+    "id": "fusan21.friendactivitygrid"
   },
   "license": "MIT",
   "type": "replugged-theme",
   "main": "src/main.css",
-  "source": "https://github.com/replugged-org/theme-template",
-  "image": ["https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"]
+  "source": "https://github.com/FuSan21/FriendActivityGrid",
+  "image": ["https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/images/demo.jpg"]
 }

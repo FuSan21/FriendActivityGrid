@@ -1,7 +1,7 @@
 {
-  "name": "theme-template",
+  "name": "friend-activity-grid",
   "version": "1.0.0",
-  "description": "A theme template",
+  "description": "A theme for Discord that makes the friend activity grid visible on width of 1200px and below. It shows the friend activity below friend list in a gridbox",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=8.0.0"
