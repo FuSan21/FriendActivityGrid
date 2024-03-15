@@ -9,7 +9,7 @@
   <br/>
 
 <a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/src/main.css"><strong>»
-Theme Preview</strong></a> ・ <a href="https://github.com/NYRI4/Discolored/issues">Report an
+Theme Preview</strong></a> ・ <a href="https://github.com/FuSan21/FriendActivityGrid/issues">Report an
 issue</a> ・ <a href="#">Join the support server</a>
 
 </div>
