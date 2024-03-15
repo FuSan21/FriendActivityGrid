@@ -28,7 +28,7 @@
     }
 
     .nowPlayingColumn_f5023f .header__123bf, .nowPlayingColumn_f5023f .emptyCard_f82dde {
-      grid-column: span 3;
+      grid-column: 1/-1;
       text-align: center;
     }
 
