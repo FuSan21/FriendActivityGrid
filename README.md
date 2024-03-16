@@ -9,7 +9,7 @@
   <br/>
 
 <a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/src/main.css"><strong>»
-Theme Preview</strong></a> ・ <a href="https://github.com/NYRI4/Discolored/issues">Report an
+Theme Preview</strong></a> ・ <a href="https://github.com/FuSan21/FriendActivityGrid/issues">Report an
 issue</a> ・ <a href="#">Join the support server</a>
 
 </div>
@@ -35,3 +35,7 @@ issue</a> ・ <a href="#">Join the support server</a>
     <b><p align="left">Vencord</b>
     <br/>Copy <code>https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/friend-activity-grid.theme.css</code> into the box in Settings > Themes > Themes tab </p>
 </div><br/>
+
+## Additional credits
+Disease (gonorrhea2@discord)<br/>
+Barnyard (huderon@discord)
