@@ -1,10 +1,7 @@
-# VSCode
-.vscode
-
 # Prettier
 .prettierignore
-.prettierrc.json
 
 # Replugged
 node_modules
 dist
+bundle

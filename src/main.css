@@ -1,95 +1,101 @@
-  /* ═══════『 💨 Custom Friend Activity For Vertical Monitor 』 */
-  @media (max-width: 1200px) {
-    .container__5c7e7 .tabBody_b3d268 {
-      flex-direction: column;
-    }
-
-    .nowPlayingColumn_f5023f {
-      flex: unset;
-      display: block !important;
-      min-width: 100%;
-      margin: 0px !important;
-      max-height: 50%;
-    }
-
-    .nowPlayingColumn_f5023f .container__0a6a9 {
-      border-radius: 0px !important;
-    }
-
-    .nowPlayingColumn_f5023f .scroller__00e7e {
-      padding-top: 0px;
-      border-top: 1px solid var(--background-modifier-accent);
-      border-left: none;
-      margin-left: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      grid-auto-rows: min-content;
-      gap: 8px;
-      align-items: start;
-      grid-auto-flow: row dense;
-    }
-
-    .nowPlayingColumn_f5023f .scroller__00e7e::-webkit-scrollbar {
-      width: 16px;
-      height: 16px;
-    }
-
-    .nowPlayingColumn_f5023f .scroller__00e7e::-webkit-scrollbar-thumb {
-      border: 4px solid transparent;
-      border-radius: 8px;
-      background-color: var(--scrollbar-auto-thumb);
-    }
-
-    .nowPlayingColumn_f5023f .scroller__00e7e::-webkit-scrollbar-track {
-      border: 4px solid transparent;
-      background-clip: padding-box;
-      border-radius: 8px;
-      background-color: var(--scrollbar-auto-track);
-    }
-
-    .nowPlayingColumn_f5023f .header__123bf,
-    .nowPlayingColumn_f5023f .emptyCard_f82dde {
-      grid-column: 1/-1;
-    }
-
-    .nowPlayingColumn_f5023f .header__123bf {
-      position: sticky;
-      top: 0;
-      left: 0;
-      z-index: 1;
-      margin: 0;
-      padding: 16px 4px 16px 14px;
-      font-weight: 600;
-      box-sizing: border-box;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-      text-transform: uppercase;
-      font-size: 12px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-      color: var(--header-secondary);
-      background: var(--background-primary);
-    }
-
-    .nowPlayingColumn_f5023f .itemCard__1f162.wrapper__6e669 {
-      margin: 0px !important;
-      height: -webkit-fill-available;
-    }
-
-    .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(1):last-child) {
-      grid-row: span 2;
-    }
-
-    .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(2):last-child) {
-      grid-row: span 3;
-    }
-
-    .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(3):last-child .applicationStreamingPreviewWrapper__97a95) {
-      grid-row: span 4;
-    }
-
-    .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(4):last-child .applicationStreamingPreviewWrapper__97a95) {
-      grid-row: span 5;
-    }
+/* ═══════『 💨 Custom Friend Activity For Vertical Monitor 』 */
+@media (max-width: 1200px) {
+  .container__5c7e7 .tabBody_b3d268 {
+    flex-direction: column;
   }
+
+  .nowPlayingColumn_f5023f {
+    flex: unset;
+    display: block !important;
+    min-width: 100%;
+    margin: 0px !important;
+    max-height: 50%;
+  }
+
+  .nowPlayingColumn_f5023f .container__0a6a9 {
+    border-radius: 0px !important;
+  }
+
+  .nowPlayingColumn_f5023f .scroller__00e7e {
+    padding-top: 0px;
+    border-top: 1px solid var(--background-modifier-accent);
+    border-left: none;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: min-content;
+    gap: 8px;
+    align-items: start;
+    grid-auto-flow: row dense;
+  }
+
+  .nowPlayingColumn_f5023f .scroller__00e7e::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+
+  .nowPlayingColumn_f5023f .scroller__00e7e::-webkit-scrollbar-thumb {
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-color: var(--scrollbar-auto-thumb);
+  }
+
+  .nowPlayingColumn_f5023f .scroller__00e7e::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+    background-color: var(--scrollbar-auto-track);
+  }
+
+  .nowPlayingColumn_f5023f .header__123bf,
+  .nowPlayingColumn_f5023f .emptyCard_f82dde {
+    grid-column: 1/-1;
+  }
+
+  .nowPlayingColumn_f5023f .header__123bf {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+    padding: 16px 4px 16px 14px;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--header-secondary);
+    background: var(--background-primary);
+  }
+
+  .nowPlayingColumn_f5023f .itemCard__1f162.wrapper__6e669 {
+    margin: 0px !important;
+    height: -webkit-fill-available;
+  }
+
+  .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(1):last-child) {
+    grid-row: span 2;
+  }
+
+  .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(2):last-child) {
+    grid-row: span 3;
+  }
+
+  .nowPlayingColumn_f5023f
+    .itemCard__1f162:has(
+      .section_efc22d:nth-child(3):last-child .applicationStreamingPreviewWrapper__97a95
+    ) {
+    grid-row: span 4;
+  }
+
+  .nowPlayingColumn_f5023f
+    .itemCard__1f162:has(
+      .section_efc22d:nth-child(4):last-child .applicationStreamingPreviewWrapper__97a95
+    ) {
+    grid-row: span 5;
+  }
+}
