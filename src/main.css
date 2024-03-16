@@ -1,5 +1,5 @@
 /* ═══════『 💨 Custom Friend Activity For Vertical Monitor 』 */
-@media (max-width: 1200px) {
+@media (max-width: var(--grid-active-cond)) {
   .container__5c7e7 .tabBody_b3d268 {
     flex-direction: column;
   }
@@ -85,17 +85,11 @@
     grid-row: span 3;
   }
 
-  .nowPlayingColumn_f5023f
-    .itemCard__1f162:has(
-      .section_efc22d:nth-child(3):last-child .applicationStreamingPreviewWrapper__97a95
-    ) {
+  .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(3):last-child .applicationStreamingPreviewWrapper__97a95) {
     grid-row: span 4;
   }
 
-  .nowPlayingColumn_f5023f
-    .itemCard__1f162:has(
-      .section_efc22d:nth-child(4):last-child .applicationStreamingPreviewWrapper__97a95
-    ) {
+  .nowPlayingColumn_f5023f .itemCard__1f162:has(.section_efc22d:nth-child(4):last-child .applicationStreamingPreviewWrapper__97a95) {
     grid-row: span 5;
   }
 }

@@ -7,5 +7,9 @@
 * @updateUrl https://fusan21.github.io/FriendActivityGrid/friend-activity-grid.theme.css
 * @version 1.0
 */
+:root {
+    --grid-active-cond: 1200px;
+    /* Recommended value 1200px or 99999px, 99999px for always on  */
+}
 
 @import "https://fusan21.github.io/FriendActivityGrid/src/main.css";
