@@ -9,8 +9,8 @@
   <br/>
 
 <a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/src/main.css"><strong>»
-Theme Preview</strong></a> ・ <a href="https://github.com/FuSan21/FriendActivityGrid/issues">Report an
-issue</a> ・ <a href="#">Join the support server</a>
+Theme Preview</strong></a> ・ <a href="https://github.com/FuSan21/FriendActivityGrid/issues">Report
+an issue</a> ・ <a href="https://discord.gg/UGs5fUskUS">Join the support server</a>
 
 </div>
 <br/>
@@ -27,7 +27,7 @@ issue</a> ・ <a href="#">Join the support server</a>
 <div align="left">
     <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
     <b><p align="left">Replugged</b>
-    <br/>Click <a href="https://replugged.dev/install?identifier=fusan21.friendactivitygrid">here</a> and confirm the install in the client</p>
+    <br/>Click <a href="https://replugged.dev/install?identifier=FuSan21/FriendActivityGrid&source=github">here</a> and confirm the install in the client</p>
 </div>
 
 <div align="left">
@@ -37,5 +37,7 @@ issue</a> ・ <a href="#">Join the support server</a>
 </div><br/>
 
 ## Additional credits
+
 Disease (gonorrhea2@discord)<br/>
-Barnyard (huderon@discord)
+Barnyard (huderon@discord)<br/>
+Salternator, the \* selector(saltssaumure@discord)
