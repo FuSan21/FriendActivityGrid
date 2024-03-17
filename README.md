@@ -21,7 +21,7 @@ an issue</a> ・ <a href="https://discord.gg/UGs5fUskUS">Join the support server
 <div align="left">
     <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
     <b><p align="left">BetterDiscord</b>
-    <br/>Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://downgit.github.io/#/home?url=https://github.com/FuSan21/FriendActivityGrid/blob/main/friend-activity-grid.theme.css">here</a></p>
+    <br/>Save the file by right clicking and save link as from<a href="https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/friend-activity-grid.theme.css">here</a>. Copy it to this directory <code>%appdata%/betterdiscord/plugins"</code> or from Discord's <code>Settings > Themes > Themes folder</code> section</p>
 </div>
 
 <div align="left">
