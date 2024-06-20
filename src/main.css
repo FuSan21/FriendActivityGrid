@@ -12,11 +12,11 @@
     max-height: 50%;
   }
 
-  [class*="nowPlayingColumn_"] > [class*="container__"] {
+  [class*="nowPlayingColumn_"] > [class*="container_"] {
     border-radius: 0px !important;
   }
 
-  [class*="nowPlayingColumn_"] > [class*="container__"] > [class*="scroller__"] {
+  [class*="nowPlayingColumn_"] > [class*="container_"] > [class*="scroller_"] {
     padding-top: 0px;
     border-top: 1px solid var(--background-modifier-accent);
     border-left: none;
@@ -29,22 +29,22 @@
     grid-auto-flow: row dense;
   }
 
-  [class*="nowPlayingColumn_"] > [class*="container__"] > [class*="scroller__"]::-webkit-scrollbar {
+  [class*="nowPlayingColumn_"] > [class*="container_"] > [class*="scroller_"]::-webkit-scrollbar {
     width: 16px;
     height: 16px;
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]::-webkit-scrollbar-thumb {
+    > [class*="container_"]
+    > [class*="scroller_"]::-webkit-scrollbar-thumb {
     border: 4px solid transparent;
     border-radius: 8px;
     background-color: var(--scrollbar-auto-thumb);
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]::-webkit-scrollbar-track {
+    > [class*="container_"]
+    > [class*="scroller_"]::-webkit-scrollbar-track {
     border: 4px solid transparent;
     background-clip: padding-box;
     border-radius: 8px;
@@ -52,19 +52,19 @@
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
+    > [class*="container_"]
+    > [class*="scroller_"]
     > [class*="header_"],
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
-    > [class*="emptyCard__"] {
+    > [class*="container_"]
+    > [class*="scroller_"]
+    > [class*="emptyCard_"] {
     grid-column: 1/-1;
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
+    > [class*="container_"]
+    > [class*="scroller_"]
     > [class*="header_"] {
     position: sticky;
     top: 0;
@@ -86,41 +86,41 @@
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
+    > [class*="container_"]
+    > [class*="scroller_"]
     > [class*="itemCard_"] {
     margin: 0px !important;
     height: -webkit-fill-available;
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
+    > [class*="container_"]
+    > [class*="scroller_"]
     > [class*="itemCard_"]:has([class*="section_"]:nth-child(1):last-child) {
     grid-row: span 2;
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
+    > [class*="container_"]
+    > [class*="scroller_"]
     > [class*="itemCard_"]:has([class*="section_"]:nth-child(2):last-child) {
     grid-row: span 3;
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
+    > [class*="container_"]
+    > [class*="scroller_"]
     > [class*="itemCard_"]:has(
-      [class*="section_"]:nth-child(3):last-child [class*="applicationStreamingPreviewWrapper__"]
+      [class*="section_"]:nth-child(3):last-child [class*="applicationStreamingPreviewWrapper_"]
     ) {
     grid-row: span 4;
   }
 
   [class*="nowPlayingColumn_"]
-    > [class*="container__"]
-    > [class*="scroller__"]
+    > [class*="container_"]
+    > [class*="scroller_"]
     > [class*="itemCard_"]:has(
-      [class*="section_"]:nth-child(4):last-child [class*="applicationStreamingPreviewWrapper__"]
+      [class*="section_"]:nth-child(4):last-child [class*="applicationStreamingPreviewWrapper_"]
     ) {
     grid-row: span 5;
   }
