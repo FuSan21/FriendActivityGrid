@@ -90,7 +90,6 @@
     > [class*="scroller_"]
     > [class*="itemCard_"] {
     margin: 0px !important;
-    height: -webkit-fill-available;
   }
 
   [class*="nowPlayingColumn_"]
