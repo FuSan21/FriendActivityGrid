@@ -96,32 +96,28 @@
   [class*="nowPlayingColumn_"]
     > [class*="container_"]
     > [class*="scroller_"]
-    > [class*="itemCard_"]:has([class*="section_"]:nth-child(1):last-child) {
+    > [class*="itemCard_"]:has(section:nth-child(1):last-child) {
     grid-row: span 2;
   }
 
   [class*="nowPlayingColumn_"]
     > [class*="container_"]
     > [class*="scroller_"]
-    > [class*="itemCard_"]:has([class*="section_"]:nth-child(2):last-child) {
+    > [class*="itemCard_"]:has(section:nth-child(2):last-child) {
     grid-row: span 3;
   }
 
   [class*="nowPlayingColumn_"]
     > [class*="container_"]
     > [class*="scroller_"]
-    > [class*="itemCard_"]:has(
-      [class*="section_"]:nth-child(3):last-child [class*="applicationStreamingPreviewWrapper_"]
-    ) {
+    > [class*="itemCard_"]:has(section:nth-child(3):last-child) {
     grid-row: span 4;
   }
 
   [class*="nowPlayingColumn_"]
     > [class*="container_"]
     > [class*="scroller_"]
-    > [class*="itemCard_"]:has(
-      [class*="section_"]:nth-child(4):last-child [class*="applicationStreamingPreviewWrapper_"]
-    ) {
+    > [class*="itemCard_"]:has(section:nth-child(4):last-child) {
     grid-row: span 5;
   }
 }
