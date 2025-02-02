@@ -4,7 +4,7 @@
   <img align="left" src="https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/images/demo2.jpg" alt="Logo" width="120" height="70">
 
   <h3 align="left">Friend Activity Grid</h3>
-  <p align="left">A theme for Discord that makes the friend activity grid visible on width of 1200px and below. It shows the friend activity below friend list in a gridbox.</p>
+  <p align="left">A theme for Discord that makes the friend activity grid visible on vertical monitor. By default, Discord hides the friend activity when width is below 1200px - this theme lets you choose between responsive mode (shows grid below 1200px) or always-on mode.</p>
 
   <br/>
 
@@ -36,8 +36,17 @@ an issue</a> ・ <a href="https://discord.gg/UGs5fUskUS">Join the support server
     <br/>Copy <code>https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/friend-activity-grid.theme.css</code> into the box in Settings > Themes > Themes tab </p>
 </div><br/>
 
-## Additional credits
+## 🔧 Configuration
 
-Disease (gonorrhea2@discord)<br/>
-Barnyard (huderon@discord)<br/>
-Salternator, the \* selector(saltssaumure@discord)
+The theme comes with two modes:
+
+- **Responsive Mode** (default): Shows grid layout when window width is below 1200px (instead of
+  Discord's default behavior of hiding it)
+- **Always-On Mode**: Shows grid layout at all window sizes
+
+To switch between modes, edit the theme file and comment/uncomment the appropriate import lines.
+
+## Credits for helping me with the theme
+
+Disease (gonorrhea2@discord)<br/> Barnyard (huderon@discord)<br/> Salternator, the \*
+selector(saltssaumure@discord)

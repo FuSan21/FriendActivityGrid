@@ -1,4 +1,4 @@
-/* ═══════『 💨 Custom Friend Activity For Vertical Monitor 』 */
+/* ═══════『 💨 Custom Friend Activity Grid For Vertical Monitor 』 */
 @media (max-width: 1200px) {
   main [class*="tabBody_"] {
     flex-direction: column;
@@ -51,10 +51,7 @@
     background-color: var(--scrollbar-auto-track);
   }
 
-  [class*="nowPlayingColumn_"]
-    > [class*="container_"]
-    > [class*="scroller_"]
-    > [class*="header_"],
+  [class*="nowPlayingColumn_"] > [class*="container_"] > [class*="scroller_"] > [class*="header_"],
   [class*="nowPlayingColumn_"]
     > [class*="container_"]
     > [class*="scroller_"]
@@ -62,10 +59,7 @@
     grid-column: 1/-1;
   }
 
-  [class*="nowPlayingColumn_"]
-    > [class*="container_"]
-    > [class*="scroller_"]
-    > [class*="header_"] {
+  [class*="nowPlayingColumn_"] > [class*="container_"] > [class*="scroller_"] > [class*="header_"] {
     position: sticky;
     top: 0;
     left: 0;

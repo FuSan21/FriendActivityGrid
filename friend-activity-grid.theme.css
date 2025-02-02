@@ -2,10 +2,14 @@
 * @name Friend Activity Grid
 * @author fu.san
 * @authorId 867995866219286618
-* @description A theme for Discord that makes the friend activity grid visible on width of 1200px and below. It shows the friend activity below friend list in a gridbox
+* @description A theme for Discord that makes the friend activity grid visible on vertical monitor. Choose between responsive mode (below 1200px) or always-on mode by commenting/uncommenting the imports below
 * @source https://github.com/FuSan21/FriendActivityGrid
 * @updateUrl https://fusan21.github.io/FriendActivityGrid/friend-activity-grid.theme.css
-* @version 1.0
+* @version 1.1
 */
 
-@import "https://fusan21.github.io/FriendActivityGrid/src/main.css";
+/* Import responsive styles (grid style shown below 1200px instead discords default behavior of hiding it) */
+@import url("https://fusan21.github.io/FriendActivityGrid/src/responsive.css");
+
+/* Import always-on styles (grid style shown on all width) */
+/* @import url("https://fusan21.github.io/FriendActivityGrid/src/always.css"); */
