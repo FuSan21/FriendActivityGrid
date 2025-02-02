@@ -1,5 +1,3 @@
-/* ═══════『 💨 Custom Friend Activity Grid』 */
-
 main [class*="tabBody_"] {
   flex-direction: column;
 }
