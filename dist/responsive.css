@@ -6,7 +6,7 @@
 
 @media (max-width: 1200px) main [class*="tabBody_"] [class*="nowPlayingColumn_"] {
   flex: unset;
-  display: block;
+  display: block !important;
   min-width: 100%;
   margin: 0px;
   max-height: 50%;
