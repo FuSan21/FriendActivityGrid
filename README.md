@@ -8,7 +8,7 @@
 
   <br/>
 
-<a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/src/main.css"><strong>»
+<a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/dist/responsive.css"><strong>»
 Theme Preview</strong></a> ・ <a href="https://github.com/FuSan21/FriendActivityGrid/issues">Report
 an issue</a> ・ <a href="https://discord.gg/UGs5fUskUS">Join the support server</a>
 

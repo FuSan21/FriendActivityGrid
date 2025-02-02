@@ -114,6 +114,3 @@ main [class*="tabBody_"] [class*="nowPlayingColumn_"] {
   > [class*="itemCard_"]:has(section:nth-child(4):last-child) {
   grid-row: span 5;
 }
-
-/* ... existing code from always.css ... */
-/* (Copy all the shared CSS rules from always.css here, excluding the media query wrapper) */

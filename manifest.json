@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "dist/responsive.css",
+  "main": "src/base.css",
   "source": "https://github.com/FuSan21/FriendActivityGrid",
   "image": [
     "https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/images/demo.jpg"

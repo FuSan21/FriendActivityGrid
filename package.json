@@ -7,7 +7,7 @@
     "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "build": "postcss src/base.css -o dist/always.css && postcss src/base.css -o dist/responsive.css",
+    "build": "postcss src/base.css -o dist/always.css --env always && postcss src/base.css -o dist/responsive.css --env responsive",
     "watch": "replugged build theme --watch",
     "bundle": "replugged bundle theme",
     "release": "replugged release",
