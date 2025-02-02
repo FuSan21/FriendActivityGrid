@@ -5,19 +5,17 @@
 * @description A theme for Discord that makes the friend activity grid visible on vertical monitor. Choose between responsive mode (below 1200px) or always-on mode by commenting/uncommenting the imports below
 * @source https://github.com/FuSan21/FriendActivityGrid
 * @updateUrl https://fusan21.github.io/FriendActivityGrid/friend-activity-grid.theme.css
-* @version 1.1.3
+* @version 1.0.0
 */
+
+/* Keep only one of the following imports at a time */
+/* Import responsive styles (grid style shown below 1200px instead discords default behavior of hiding it) */
+@import url("https://fusan21.github.io/FriendActivityGrid/dist/responsive.css");
+/* Import always-on styles (grid style shown on all width) */
+/* @import url("https://fusan21.github.io/FriendActivityGrid/dist/always.css"); */
 
 /* Configuration */
 :root {
   --friend-activity-card-min-width: 190px; /* Minimum card width (default: 190px) */
   --friend-activity-card-max-width: 1fr; /* Maximum card width (default: 1fr) */
 }
-
-/* Keep only one of the following imports at a time */
-
-/* Import responsive styles (grid style shown below 1200px instead discords default behavior of hiding it) */
-@import url("https://fusan21.github.io/FriendActivityGrid/dist/responsive.css");
-
-/* Import always-on styles (grid style shown on all width) */
-/* @import url("https://fusan21.github.io/FriendActivityGrid/dist/always.css"); */
