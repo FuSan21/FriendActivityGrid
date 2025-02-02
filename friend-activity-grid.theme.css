@@ -8,6 +8,14 @@
 * @version 1.1
 */
 
+/* Configuration */
+:root {
+  --friend-activity-card-min-width: 190px; /* Minimum card width (default: 190px) */
+  --friend-activity-card-max-width: 1fr; /* Maximum card width (default: 1fr) */
+}
+
+/* Keep only one of the following imports at a time */
+
 /* Import responsive styles (grid style shown below 1200px instead discords default behavior of hiding it) */
 @import url("https://fusan21.github.io/FriendActivityGrid/src/responsive.css");
 
