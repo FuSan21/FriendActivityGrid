@@ -1,0 +1,11 @@
+  - name: Install Node.js dependencies
+    run: pnpm install
+
+  - name: Update versions
+    run: pnpm run version
+
+  - name: Build CSS files
+    run: pnpm run build
+
+  - name: Build TypeScript and bundle into asar
+    run: pnpm run bundle 

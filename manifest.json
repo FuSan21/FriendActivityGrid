@@ -7,14 +7,14 @@
     "discordID": "867995866219286618",
     "github": "FuSan21"
   },
-  "version": "1.2.0",
+  "version": "1.1.0",
   "updater": {
     "type": "store",
     "id": "fusan21.friendactivitygrid"
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/main.css",
+  "main": "dist/responsive.css",
   "source": "https://github.com/FuSan21/FriendActivityGrid",
   "image": [
     "https://raw.githubusercontent.com/FuSan21/FriendActivityGrid/main/images/demo.jpg"
