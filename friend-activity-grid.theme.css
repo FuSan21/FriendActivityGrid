@@ -17,7 +17,7 @@
 /* Keep only one of the following imports at a time */
 
 /* Import responsive styles (grid style shown below 1200px instead discords default behavior of hiding it) */
-@import url("https://fusan21.github.io/FriendActivityGrid/src/responsive.css");
+@import url("https://fusan21.github.io/FriendActivityGrid/dist/responsive.css");
 
 /* Import always-on styles (grid style shown on all width) */
-/* @import url("https://fusan21.github.io/FriendActivityGrid/src/always.css"); */
+/* @import url("https://fusan21.github.io/FriendActivityGrid/dist/always.css"); */

@@ -2,6 +2,5 @@
 .prettierignore
 
 # Replugged
-node_modules
-dist
+node_modules/
 bundle

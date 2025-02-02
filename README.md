@@ -46,6 +46,42 @@ The theme comes with two modes:
 
 To switch between modes, edit the theme file and comment/uncomment the appropriate import lines.
 
+## 🛠️ Development
+
+### Prerequisites
+- Node.js >=20.0.0
+- pnpm >=8.0.0
+
+### Building from source
+
+1. Clone the repository
+```bash
+git clone https://github.com/FuSan21/FriendActivityGrid.git
+cd FriendActivityGrid
+```
+
+2. Install dependencies
+```bash
+pnpm install
+```
+
+3. Build the CSS files
+```bash
+pnpm run build
+```
+
+This will generate two files in the `dist` directory:
+- `always.css`: Grid layout applied at all window sizes
+- `responsive.css`: Grid layout applied only below 1200px width
+
+### Development commands
+
+- `pnpm run build` - Build CSS files
+- `pnpm run watch` - Watch for changes (Replugged)
+- `pnpm run bundle` - Bundle theme for distribution
+- `pnpm run lint` - Check code style
+- `pnpm run lint:fix` - Fix code style issues
+
 ## Credits for helping me with the theme
 
 Disease (gonorrhea2@discord)<br/> Barnyard (huderon@discord)<br/> Salternator, the \*
