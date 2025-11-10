@@ -82,33 +82,8 @@ main [class*="tabBody_"] [class*="nowPlayingColumn_"] {
 
 [class*="nowPlayingColumn_"] > [class*="container_"] > [class*="scroller_"] > div > [class*="itemCard_"] {
   margin: 0px;
-  height: -webkit-fill-available;
-}
-
-[class*="nowPlayingColumn_"]
-  > [class*="container_"]
-  > [class*="scroller_"] > div
-  > [class*="itemCard_"]:has(section:nth-child(1):last-child) {
-  grid-row: span 2;
-}
-
-[class*="nowPlayingColumn_"]
-  > [class*="container_"]
-  > [class*="scroller_"] > div
-  > [class*="itemCard_"]:has(section:nth-child(2):last-child) {
-  grid-row: span 3;
-}
-
-[class*="nowPlayingColumn_"]
-  > [class*="container_"]
-  > [class*="scroller_"] > div
-  > [class*="itemCard_"]:has(section:nth-child(3):last-child) {
-  grid-row: span 4;
-}
-
-[class*="nowPlayingColumn_"]
-  > [class*="container_"]
-  > [class*="scroller_"] > div
-  > [class*="itemCard_"]:has(section:nth-child(4):last-child) {
-  grid-row: span 5;
+  height: auto;
+  /* Automatically span rows based on intrinsic content height */
+  /* Uses grid-auto-rows: minmax to let items define their own height */
+  grid-row: auto / span auto;
 }
