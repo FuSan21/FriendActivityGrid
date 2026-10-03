@@ -20,15 +20,10 @@
     border-top: 1px solid var(--background-modifier-accent, var(--border-subtle));
     border-left: none;
     margin-left: 0;
-    display: grid;
-    grid-template-columns: repeat(
-      auto-fill,
-      minmax(var(--friend-activity-card-min-width, 190px), var(--friend-activity-card-max-width, 1fr))
-    );
-    grid-auto-rows: min-content;
-    gap: 8px;
-    align-items: start;
-    grid-auto-flow: row dense;
+    display: block;
+    /* Multi-column masonry: cards of any height pack without row gaps */
+    columns: var(--friend-activity-card-min-width, 190px) auto;
+    column-gap: 8px;
   }
 
   [class*="nowPlayingColumn_"]
@@ -68,7 +63,7 @@
     > [class*="scroller_"]
     > div
     > [class*="emptyCard_"] {
-    grid-column: 1/-1;
+    column-span: all;
   }
 
   [class*="nowPlayingColumn_"]
@@ -100,11 +95,9 @@
     > [class*="scroller_"]
     > div
     > [class*="itemCard_"] {
-    margin: 0px;
+    margin: 0 0 8px;
     height: auto;
-    /* Automatically span rows based on intrinsic content height */
-    /* Uses grid-auto-rows: minmax to let items define their own height */
-    grid-row: auto / span auto;
+    break-inside: avoid;
   }
 
 }

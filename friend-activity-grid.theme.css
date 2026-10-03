@@ -16,6 +16,5 @@
 
 /* Configuration */
 :root {
-  --friend-activity-card-min-width: 190px; /* Minimum card width (default: 190px) */
-  --friend-activity-card-max-width: 1fr; /* Maximum card width (default: 1fr) */
+  --friend-activity-card-min-width: 190px; /* Minimum card width, cards stretch to fill the row (default: 190px) */
 }
