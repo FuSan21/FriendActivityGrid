@@ -16,7 +16,7 @@ main [class*="tabBody_"] [class*="nowPlayingColumn_"] {
 
 [class*="nowPlayingColumn_"] > [class*="container_"] > [class*="scroller_"] > div {
   padding-top: 0px;
-  border-top: 1px solid var(--background-modifier-accent);
+  border-top: 1px solid var(--background-modifier-accent, var(--border-subtle));
   border-left: none;
   margin-left: 0;
   display: grid;
@@ -90,8 +90,8 @@ main [class*="tabBody_"] [class*="nowPlayingColumn_"] {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--header-secondary);
-  background: var(--background-primary);
+  color: var(--header-secondary, var(--text-default));
+  background: var(--background-primary, var(--background-base-lower));
 }
 
 [class*="nowPlayingColumn_"]
